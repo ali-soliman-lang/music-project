@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>music project</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- start navbar -->
+
+    <nav>
+      <div class="container">
+        <div class="row">
+          <div class="logo">
+            <img src="img/logo.png" alt="" />
+          </div>
+          <div class="list">
+            <ul>
+              <li><a class="active" href="#" data-scroll="home">Home</a></li>
+              <li><a href="#" data-scroll="tours">tours</a></li>
+              <li><a href="#" data-scroll="music">music</a></li>
+              <li><a href="#" data-scroll="gallary">gallary</a></li>
+              <li><a href="#" data-scroll="blogs">blogs</a></li>
+              <li><a href="#" data-scroll="artist">artist</a></li>
+              <li><a href="#" data-scroll="contact">contact</a></li>
+            </ul>
+          </div>
+          <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+            <i class="fas fa-share-alt"></i>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- end navbar -->
+
+    <!-- start header -->
+
+    <section class="header" id="home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="info">
+          <span>new tour</span>
+          <h2>rock on</h2>
+          <p>jungle band will sing jungle</p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, ullam
+            tempora dolores magnam perferendis blanditiis veniam. Unde, labore?
+          </p>
+          <button>join the tour</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- end header -->
+
+    <!-- start tours -->
+
+    <section class="tours" id="tours">
+      <div class="container">
+        <div class="heading">
+          <h2>upcoming tour</h2>
+          <img src="img/head.png" alt="" />
+          <p>rise your emition & wishes to expend pleasure time with us</p>
+        </div>
+        <div class="row">
+          <div class="info">
+            <div class="row">
+              <div class="circle">
+                <div class="con">
+                  <p>
+                    13 apr <br />
+                    <span>2020</span>
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <h3>coachella music festival</h3>
+                <span
+                  ><i class="fas fa-map-marker-alt"></i> indio.california
+                  u.s.a</span
+                >
+                <span> <i class="far fa-clock"></i> april 13-22,2020</span>
+                <button>buy ticket</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="circle">
+                <div class="con">
+                  <p>
+                    13 apr <br />
+                    <span>2020</span>
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <h3>coachella music festival</h3>
+                <span
+                  ><i class="fas fa-map-marker-alt"></i> indio.california
+                  u.s.a</span
+                >
+                <span> <i class="far fa-clock"></i> april 13-22,2020</span>
+                <button>buy ticket</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="circle">
+                <div class="con">
+                  <p>
+                    13 apr <br />
+                    <span>2020</span>
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <h3>coachella music festival</h3>
+                <span
+                  ><i class="fas fa-map-marker-alt"></i> indio.california
+                  u.s.a</span
+                >
+                <span> <i class="far fa-clock"></i> april 13-22,2020</span>
+                <button>buy ticket</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="circle">
+                <div class="con">
+                  <p>
+                    13 apr <br />
+                    <span>2020</span>
+                  </p>
+                </div>
+              </div>
+              <div class="details">
+                <h3>coachella music festival</h3>
+                <span
+                  ><i class="fas fa-map-marker-alt"></i> indio.california
+                  u.s.a</span
+                >
+                <span> <i class="far fa-clock"></i> april 13-22,2020</span>
+                <button>buy ticket</button>
+              </div>
+            </div>
+          </div>
+          <div class="img">
+            <img src="img/10.jpg" alt="" />
+          </div>
+        </div>
+        <button>view more tour</button>
+      </div>
+    </section>
+
+    <!-- end tours -->
+
+    <!-- start music section -->
+
+    <section class="music-section" id="music">
+      <div class="container">
+        <div class="heading">
+          <h2>featured music</h2>
+          <img src="img/head.png" alt="" />
+          <p>rise your emition & wishes to expend pleasure time with us</p>
+        </div>
+        <div class="btn">
+          <button>audio</button>
+          <button>video</button>
+          <button>album</button>
+        </div>
+        <div class="row">
+          <div class="img">
+            <div class="name">sia</div>
+          </div>
+          <div class="songs">
+            <div class="sound">
+              <audio
+                id="helium"
+                src="songs/sia/Sia - Helium (Lyrics)(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">01 . Helium</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button onclick="document.getElementById('helium').play()">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button onclick="document.getElementById('helium').pause()">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('helium').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('helium').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="sound">
+              <audio
+                id="forgive-you"
+                src="songs/sia/Sia - I Forgive you (Je Te Pardonne) - feat.  Mait(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">02 . I Forgive you</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('forgive-you').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('forgive-you').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('forgive-you').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('forgive-you').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="original"
+                src="songs/sia/Sia - Original (from the Dolittle soundtrack)(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">03 . original</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button onclick="document.getElementById('original').play()">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button onclick="document.getElementById('original').pause()">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('original').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('original').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="saved-my-life"
+                src="songs/sia/Sia - Saved My Life (Audio)(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">04 . saved my life</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('saved-my-life').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('saved-my-life').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('saved-my-life').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('saved-my-life').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Greatest"
+                src="songs/sia/Sia - The Greatest (lyrics) .mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">05 . Greatest</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button onclick="document.getElementById('Greatest').play()">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button onclick="document.getElementById('Greatest').pause()">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Greatest').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Greatest').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Together"
+                src="songs/sia/Sia - Together (from the motion picture Music)(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">06 . Together</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button onclick="document.getElementById('Together').play()">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button onclick="document.getElementById('Together').pause()">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Together').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Together').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="too-Beautiful"
+                src="songs/sia/Sia - too Beautiful unreleased(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">07 . too Beautiful</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('too-Beautiful').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('too-Beautiful').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('too-Beautiful').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('too-Beautiful').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Born-Yesterday"
+                src="songs/sia/Sia- Born Yesterday Lyrics.mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">08 . Born Yesterday</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('Born-Yesterday').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Born-Yesterday').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Born-Yesterday').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Born-Yesterday').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Dusk-Till-Dawn"
+                src="songs/sia/ZAYN, Sia - Dusk Till Dawn ft. Sia.mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">09 . Dusk Till Dawn</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('Dusk-Till-Dawn').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Dusk-Till-Dawn').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Dusk-Till-Dawn').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Dusk-Till-Dawn').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio id="Flames" src="songs/sia/02. Flames.mp3"></audio>
+              <div class="row">
+                <div class="item">10 . Flames</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button onclick="document.getElementById('Flames').play()">
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button onclick="document.getElementById('Flames').pause()">
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Flames').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Flames').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Awake-Tonight"
+                src="songs/sia/Sia - Awake Tonight (2015 mix)(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">11 . Awake Tonight</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('Awake-Tonight').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Awake-Tonight').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Awake-Tonight').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Awake-Tonight').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="sound">
+              <audio
+                id="Big-Girls-Cry"
+                src="songs/sia/Sia - Big Girls Cry (Official Video).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">12 . Big Girls Cry</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('Big-Girls-Cry').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Big-Girls-Cry').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Big-Girls-Cry').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Big-Girls-Cry').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="sound">
+              <audio
+                id="Broken-Glass"
+                src="songs/sia/Sia - Broken Glass _ Official Lyric Video _ Assass(MP3_160K).mp3"
+              ></audio>
+              <div class="row">
+                <div class="item">13 . Broken Glass</div>
+                <div class="item">
+                  4:10 min <i class="fas fa-headphones"></i>
+                </div>
+                <div class="item control">
+                  <button
+                    onclick="document.getElementById('Broken-Glass').play()"
+                  >
+                    <i class="fas fa-play"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Broken-Glass').pause()"
+                  >
+                    <i class="fas fa-pause"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Broken-Glass').volume += 0.1"
+                  >
+                    <i class="fas fa-plus"></i>
+                  </button>
+                  <button
+                    onclick="document.getElementById('Broken-Glass').volume -= 0.1"
+                  >
+                    <i class="fas fa-minus"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="final-btn">view more audio</button>
+      </div>
+    </section>
+
+    <!-- end music section -->
+
+    <!-- start photos -->
+
+    <section class="photos" id="gallary">
+      <div class="heading">
+        <h2>best photo frame</h2>
+        <img src="img/head.png" alt="" />
+        <p>rise your emition & wishes to expend pleasure time with us</p>
+      </div>
+      <div class="row">
+        <div class="box">
+          <img style="height: 674px;" src="img/03.jpg" alt="" />
+          <img src="img/07.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="img/04.jpg" alt="" />
+          <img src="img/09.jpg" alt="" />
+        </div>
+        <div class="box">
+          <img src="img/05.jpg" alt="" />
+          <img src="img/11.jpg" alt="" />
+        </div>
+      </div>
+      <button class="final-btn">view more photos</button>
+    </section>
+
+    <!-- end photos -->
+
+    <!-- start blog -->
+
+    <section class="blog" id="blogs">
+      <div class="container">
+        <div class="heading">
+          <h2>latest news</h2>
+          <img src="img/head.png" alt="" />
+        </div>
+        <div class="row">
+          <div class="box">
+            <div class="over">
+              <img src="img/04.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium aliquid vitae suscipit
+            </p>
+            <div class="details">
+              <span><i class="fas fa-user-alt"></i> Post By Admin</span>
+              <span><i class="far fa-clock"></i> 28 feb 2020</span>
+              <span><i class="fas fa-comment-alt"></i> 2,222</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="over">
+              <img src="img/08.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium aliquid vitae suscipit
+            </p>
+            <div class="details">
+              <span><i class="fas fa-user-alt"></i> Post By Admin</span>
+              <span><i class="far fa-clock"></i> 28 feb 2020</span>
+              <span><i class="fas fa-comment-alt"></i> 2,222</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="over">
+              <img src="img/06.jpg" alt="" />
+            </div>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Laudantium aliquid vitae suscipit
+            </p>
+            <div class="details">
+              <span><i class="fas fa-user-alt"></i> Post By Admin</span>
+              <span><i class="far fa-clock"></i> 28 feb 2020</span>
+              <span><i class="fas fa-comment-alt"></i> 2,222</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end blog -->
+
+    <!-- start back -->
+
+    <section class="back">
+      <div class="overlay"></div>
+      <div class="info">
+        <h2>subscribe to the newsletter</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt
+          saepe, ipsa labore quis ducimus <br />
+          fugiat reprehenderit expedita nulla at sit ad? Omnis, doloremque.
+        </p>
+        <form action="">
+          <input type="email" placeholder="Your Email Addrss" />
+          <button>Subscribe Now</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- end back -->
+
+    <!-- start swiper -->
+
+    <!-- Swiper slider -->
+    <section class="slider" id="artist">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/16.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/17.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/18.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/19.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/20.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/21.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/16.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/17.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/18.jpg" alt="" />
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-over">
+              <div class="overlay">
+                <div class="icon">
+                  <i class="fab fa-instagram"></i>
+                  <span>@singmusic</span>
+                </div>
+              </div>
+              <img src="img/19.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!-- end swiper slider -->
+
+    <!-- start contact -->
+
+    <section class="contact" id="contact">
+      <div class="container">
+        <img src="img/logo.png" alt="" />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, sunt
+          saepe, ipsa labore quis ducimus <br />
+          fugiat reprehenderit expedita nulla at sit ad? Omnis, doloremque.
+        </p>
+        <div class="row">
+          <div class="box">
+            <div class="info">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Egypt, Alex</span>
+              <span>Greenplaza, ST 201</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="info">
+              <i class="fas fa-envelope"></i>
+              <span>SING@GMAIL.COM</span>
+              <span>sing.song@gmail.com</span>
+            </div>
+          </div>
+          <div class="box">
+            <div class="info">
+              <i class="fas fa-phone-alt"></i>
+              <span>+201 15066 0176</span>
+              <span>+201 03248 9886</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- end contact -->
+
+    <!-- start footer -->
+
+    <footer>
+      <p>
+        2020 &copy; <span>sing</span> music website all right reserved <br />
+        develop with <span>ali soliman</span>
+      </p>
+    </footer>
+
+    <!-- end footer -->
+
+    <!-- start button up -->
+
+    <button class="up" id="go-up">
+      <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- end button up -->
+
+    <!-- start loading page spinner -->
+
+    <div class="loading">
+      <div class="sk-chase">
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+        <div class="sk-chase-dot"></div>
+      </div>
+    </div>
+
+    <!-- end loading page spinner -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
